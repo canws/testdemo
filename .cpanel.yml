@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/libertynet/public_html/testdemo/
+    - /bin/cp * $DEPLOYPATH
